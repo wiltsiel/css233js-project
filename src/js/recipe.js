@@ -35,6 +35,7 @@ class Recipe
         // get the input value (and remove punctuation)
         let query = this.removePunctuation(this.$recipeInput.value);
         this.getRecipeList(query);
+        this.$recipeInput.value = '';
     }
 
     searchIngredient(event)
@@ -44,6 +45,7 @@ class Recipe
         // get the input value (and remove punctuation)
         let query = this.removePunctuation(this.$ingredientInput.value);
         this.getRecipeList(query);
+        this.$ingredientInput.value = '';
     }
 
     getRecipeList(query)
