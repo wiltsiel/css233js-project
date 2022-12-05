@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipe Search (Spoonacular API)</title>
+    </head>
+
+    <body>
+        <div class="container" id="searches">
+            <ul>
+                <li>
+                    <button data-bs-toggle="collapse" data-bs-target="#recipeSearch" class="btn btn-primary round-4">Search by Recipe</button>
+                    <div id="recipeSearch" class="collapse">
+                        <div>
+                            <label for="recipe" class="form-label">Search for a recipe by name</label>
+                            <input type="text" class="form-control" placeholder="ex: Beef Stroganoff" name="recipe" id="recipe">
+                            <a href="" class="btn btn-sm btn-success round-4" id="recipeBtn">Search</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <button data-bs-toggle="collapse" data-bs-target="#ingredientSearch" class="btn btn-info round-4">Search by Ingredients</button>
+                    <div id="ingredientSearch" class="collapse">
+                        <div>
+                            <label for="recipe" class="form-label">Search for recipes by ingredient</label>
+                            <input type="text" class="form-control" placeholder="ex: beef, onion, garlic" name="ingredient" id="ingredient">
+                            <a href="" class="btn btn-sm btn-success round-4" id="ingredientBtn">Search</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container">
+            <div class="row" id="results">
+                
+            </div>
+        </div>
+    </body>
+</html>

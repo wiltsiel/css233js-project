@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#searches {
+    margin-top: 3em;
+}
+
+.btn {
+    border: solid 2px white;
+    width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: larger;
+}
+
+#recipeBtn, #ingredientBtn {
+    width: 25%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-left: 75%;
+    font-size: medium;
+}
+
+ul {
+    list-style-type: none;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#viewBtn {
+    font-size: medium;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tags {
+    font-size: small;
+    font-style: italic;
+    color: darkgray;
+}
